@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<form action="do" method="get">
+	
+	<div class="form-row">
+	<label for="email">Email
+	<input type="email" name="email" id="email" required >
+	</label>
+	</div>
+
+	<div class="register-row">
+	    <label for="pass">Password
+	    <input type="password" name="pass" id="pass" required>
+	   </label>
+    </div>
+
+    <div class="register-row">
+	    <label for="confirm">Confirm password
+	    <input type="password" name="confirm" id="confirm" required>
+	   </label>
+    </div>
+
+	<div class="register-row">
+		    <label for="address">Adress
+		    <input type="text" value="" id="address" name="adress" >
+		   </label>
+	    </div>
+
+
+	<div class="register-row">
+		    <label for="bday">Date of Register
+		    <input type="date" value="" id="bday" name="bday" >
+		   </label>
+    </div>
+ 
+	 <div class="form-row">
+		<select name="select">
+		
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+		
+		</select>
+		
+	</div>
+		
+
+		<div class="form-row">
+		<label for="age">Age:
+		<input type="number" name="age" id="age" value="">
+		</label>
+	</div>
+
+	<div class="form-row">
+		<label>Upload your photo
+		<input type="file" id="name" name="name"  >
+		</label>
+	</div>
+
+	<div class="form-row">Promotional emails:
+		<label for="male" >Send</label>
+		<input type="radio" value="Male" name="gender" checked id="male">
+		<label for="female" >Not send</label>
+		<input type="radio" value="Female" name="gender" id="female">
+		
+	</div>
+
+	<div class="form-row">
+		<label>Your bio:
+		<textarea rows="10" cols="45" name="text"></textarea>
+		</label>
+	</div>
+
+	<div class="form-row">
+	<input type="submit"  value="register" name="register">
+	<input type="reset" value="reset" name="reset" >
+	</div>
+</form>
+
+</body>
+</html>
